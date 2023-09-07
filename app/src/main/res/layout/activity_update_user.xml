@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafaff"
+    tools:context=".UpdateUser">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manrope_bold"
+        android:paddingLeft="20dp"
+        android:text="Update your user profile"
+        android:textColor="#001427"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <EditText
+        android:id="@+id/phonenum"
+        android:layout_width="336dp"
+        android:layout_height="48dp"
+        android:background="@drawable/style3"
+        android:ems="10"
+        android:fontFamily="@font/manrope"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:textColor="#001427"
+        android:textColorHint="#001427"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="336dp"
+        android:layout_height="48dp"
+        android:background="@drawable/style3"
+        android:ems="10"
+        android:fontFamily="@font/manrope"
+        android:hint="Full name"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#001427"
+        android:textColorHint="#001427"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="336dp"
+        android:layout_height="48dp"
+        android:background="@drawable/style3"
+        android:ems="10"
+        android:fontFamily="@font/manrope"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#001427"
+        android:textColorHint="#001427"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/updtBtn"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:background="@drawable/style4"
+        android:clickable="true"
+        android:fontFamily="@font/manrope_bold"
+        android:text="Update"
+        android:textColor="#FFD726"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+</androidx.constraintlayout.widget.ConstraintLayout>

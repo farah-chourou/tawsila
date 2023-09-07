@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825787670724",
+    "project_id": "tawsilaa-61f5c",
+    "storage_bucket": "tawsilaa-61f5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825787670724:android:03da3657b24de7ad47e991",
+        "android_client_info": {
+          "package_name": "com.example.tawsilaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825787670724-jga2kpeo7qg26pfm9jcojme9b25chnto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARgmmMhmX25kgXcDLMAgp4uGDBELMw7gI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825787670724-jga2kpeo7qg26pfm9jcojme9b25chnto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
